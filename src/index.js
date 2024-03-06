@@ -86,7 +86,21 @@ function Menu (){
      ingredients='tomato, Musroom'
      price={12}
      photoName='pizzas/funghi.jpg'
-     />   
+     />  
+     <Pizza 
+     name= "Focaccia"
+     ingredients= "Bread with italian olive oil and rosemary"
+     price= {6}
+     photoName= "pizzas/focaccia.jpg"
+     soldOut= "false"
+     /> 
+     <Pizza 
+     name= "Pizza Margherita"
+     ingredients= "Tomato and mozarella"
+     price= {10}
+     photoName= "pizzas/margherita.jpg"
+     soldOut= {false}
+     />
   </main>
   );
 }
