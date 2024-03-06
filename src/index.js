@@ -73,8 +73,10 @@ function Header (){
 
 function Menu (){
   return (
-  <main className='menu'>
-    <h2>Our Menu</h2>
+ <div>
+  <h2>Our Menu</h2>
+   <main className='menu'>
+    
     <Pizza
      name='Pizza Spinaci' 
      ingredients='Tomato, mozarella, spinach, and ricotta cheese'
@@ -101,7 +103,21 @@ function Menu (){
      photoName= "pizzas/margherita.jpg"
      soldOut= {false}
      />
+     <Pizza 
+     name='Pizza Funghi'
+     ingredients='tomato, Musroom'
+     price={12}
+     photoName='pizzas/funghi.jpg'
+     /> 
+     <Pizza 
+     name= "Pizza Margherita"
+     ingredients= "Tomato and mozarella"
+     price= {10}
+     photoName= "pizzas/margherita.jpg"
+     soldOut= {false}
+     />
   </main>
+ </div>
   );
 }
 
